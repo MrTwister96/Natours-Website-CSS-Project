@@ -1,0 +1,17 @@
+// '*' is the universal selector
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // Defines the size of 1rem
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
